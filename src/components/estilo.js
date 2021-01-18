@@ -9,7 +9,8 @@ export default StyleSheet.create({
     },
     fontM: {
         fontSize: 16,
-        textAlign: "center",
+
+        alignItems: "center",
         color: '#fff'
     }
 })
