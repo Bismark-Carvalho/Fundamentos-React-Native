@@ -1,5 +1,6 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet } from "react-native";
+import Mega from './components/mega/Mega';
 // import ProductListV2 from './components/Products/ProductListV2';
 // import NumeroAleatorio from './components/Aleatorio'
 // import UsusarioLogado from './components/childrens/UsusarioLogado';
@@ -9,7 +10,8 @@ import { SafeAreaView, StyleSheet } from "react-native";
 // import Pai from './components/direta/Pai'
 // import ParImpar from './components/ParImpar'
 // import Inputs from './components/Inputs'
-import FlexBoxV4 from './layout/FlexBoxV4'
+// import FlexBoxV4 from './layout/FlexBoxV4'
+
 
 export default () => {
     return <SafeAreaView style={style.App}>
@@ -23,8 +25,9 @@ export default () => {
         <ProductList />
         <ProductListV2 />
         <Inputs />
-        <Pai /> */}
         <FlexBoxV4 />
+        <Pai /> */}
+        <Mega qntNumero={7} />
     </SafeAreaView>
 }
 
